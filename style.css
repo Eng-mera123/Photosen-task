@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section{
+    background-color: #000;
+    margin: 0;
+}
+#main{
+    margin: 0% 8%;
+}
+/* ..........AI.................. */
+.navbar nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 50px; 
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar .logo p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar .list ul {
+  list-style: none;
+  display: flex; 
+  gap: 30px; 
+}
+
+.navbar .list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar .list a:hover {
+  color: #1abc9c;
+}
+
+.navbar .icons i {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar .icons i:hover {
+  color: #1abc9c;
+}
+/* ............................... */
+
+.row1 div,.row2 div,.row3 div{
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row1 div:hover 
+,.row2 div:hover 
+,.row3 div:hover{
+  filter: grayscale(1);
+}
+.row1,.row2,.row3{
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px; 
+}
+
+.row1 .pic1{
+  background-image: url("assets/images/img_1.jpg.webp");
+}
+.row1 .pic2{
+  background-image: url("assets/images/img_2.jpg.webp"); 
+}
+.row1 .pic3{ 
+  background-image: url("assets/images/img_3.jpg");
+}
+.row2 .pic4{   
+  background-image: url("assets/images/img_4.jpg");
+}
+.row2 .pic5{  
+  background-image: url("assets/images/img_5.jpg");    
+}
+
+.row2 .pic6{
+  background-image: url("assets/images/img_6.jpg");
+}
+.row3 .pic7{
+  background-image: url("assets/images/img_7.jpg");  
+}
+.row3 .pic8{
+  background-image: url("assets/images/img_3.jpg"); 
+}
+    
+.row3 .pic9{
+  background-image: url("assets/images/img_4.jpg"); 
+}
+
+h2{
+
+    font-size: 30px; 
+    color: #fff;
+}
+h2,button{
+    display: flex;
+    justify-content: center;
+    padding: 8% 2%;
+}
+button {
+  padding: 18px 32px;
+  background-color:transparent;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid white;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  margin: 0% 30%;
+}
+button:hover {
+  background-color: gray;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+footer .content p a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+p{
+    margin: 0;
+}
